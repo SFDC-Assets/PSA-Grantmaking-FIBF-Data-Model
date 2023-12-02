@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_AreasAffected__c</fullName>
+    <description>List the areas or entities using the categories (e.g., cities, counties, states, etc.) specified in agency instructions.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List the areas or entities using the categories (e.g., cities, counties, states, etc.) specified in agency instructions.</inlineHelpText>
+    <label>Areas Affected</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_BusinessCharacteristicId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Business Characteristic</label>
+    <referenceTo>gr_BusinessCharacteristic__c</referenceTo>
+    <relationshipLabel>Eligible Business Characteristics</relationshipLabel>
+    <relationshipName>Eligible_Business_Characteristics</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

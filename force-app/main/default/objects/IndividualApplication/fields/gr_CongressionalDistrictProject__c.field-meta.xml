@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_CongressionalDistrictProject__c</fullName>
+    <description>the congressional district of the project or program</description>
+    <externalId>false</externalId>
+    <inlineHelpText>tEnter the Congressional District in the format: 2 character State Abbreviation - 3 character District Number. Examples: CA-005 for California&apos;s 5th district, CA-012 for California&apos;s 12th district.
+
+If all districts in a state are affected, enter &quot;&quot;all&quot;&quot; for the district number. Example: MD-all for all congressional districts in Maryland.
+
+If nationwide (all districts in all states), enter US-all.
+
+If the program/project is outside the US, enter 00-000.</inlineHelpText>
+    <label>Congressional District of Project</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

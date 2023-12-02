@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Merit_Review_And_Selection_Process__c</fullName>
+    <description>A description of or reference to the Federal agency&apos;s merit review and selection process for applications for a Federal award of a grant program funding opportunity (e.g., the number of people on an evaluation panel and how it operates, the way reviewers</description>
+    <externalId>false</externalId>
+    <label>Merit Review And Selection Process</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

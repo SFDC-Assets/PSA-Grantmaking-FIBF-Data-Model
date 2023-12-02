@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Grant_Award_Report_Text__c</fullName>
+    <description>A narrative of the details of the report submitted by the Federal award recipient.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A narrative of the details of the report submitted by the Federal award recipient.</inlineHelpText>
+    <label>Grant Award Report Text</label>
+    <length>131072</length>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_ApplicantType__c</fullName>
+    <description>Select a minimum of one applicant type or select up to three applicant types in accordance with agency instructions.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select a minimum of one applicant type or select up to three applicant types in accordance with agency instructions.</inlineHelpText>
+    <label>Applicant Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>State Government</fullName>
+                <default>false</default>
+                <label>State Government</label>
+            </value>
+            <value>
+                <fullName>County Government</fullName>
+                <default>false</default>
+                <label>County Government</label>
+            </value>
+            <value>
+                <fullName>City or Township Government</fullName>
+                <default>false</default>
+                <label>City or Township Government</label>
+            </value>
+            <value>
+                <fullName>Special District Government</fullName>
+                <default>false</default>
+                <label>Special District Government</label>
+            </value>
+            <value>
+                <fullName>Regional Organization</fullName>
+                <default>false</default>
+                <label>Regional Organization</label>
+            </value>
+            <value>
+                <fullName>U.S. Territory or Possession</fullName>
+                <default>false</default>
+                <label>U.S. Territory or Possession</label>
+            </value>
+            <value>
+                <fullName>Independent School District</fullName>
+                <default>false</default>
+                <label>Independent School District</label>
+            </value>
+            <value>
+                <fullName>Public/State Controlled Institution of Higher Education</fullName>
+                <default>false</default>
+                <label>Public/State Controlled Institution of Higher Education</label>
+            </value>
+            <value>
+                <fullName>Indian/Native American Tribal Government (Federally Recognized)</fullName>
+                <default>false</default>
+                <label>Indian/Native American Tribal Government (Federally Recognized)</label>
+            </value>
+            <value>
+                <fullName>Indian/Native American Tribal Government (Other than Federally Recognized)</fullName>
+                <default>false</default>
+                <label>Indian/Native American Tribal Government (Other than Federally Recognized)</label>
+            </value>
+            <value>
+                <fullName>Indian/Native American Tribally Designated Organization</fullName>
+                <default>false</default>
+                <label>Indian/Native American Tribally Designated Organization</label>
+            </value>
+            <value>
+                <fullName>Public/Indian Housing Authority</fullName>
+                <default>false</default>
+                <label>Public/Indian Housing Authority</label>
+            </value>
+            <value>
+                <fullName>Nonprofit with 501C3 IRS Status (Other than Institution of Higher Education)</fullName>
+                <default>false</default>
+                <label>Nonprofit with 501C3 IRS Status (Other than Institution of Higher Education)</label>
+            </value>
+            <value>
+                <fullName>Nonprofit without 501C3 IRS Status (Other than Institution of Higher Education)</fullName>
+                <default>false</default>
+                <label>Nonprofit without 501C3 IRS Status (Other than Institution of Higher Education)</label>
+            </value>
+            <value>
+                <fullName>Private Institution of Higher Education</fullName>
+                <default>false</default>
+                <label>Private Institution of Higher Education</label>
+            </value>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>For-Profit Organization (Other than Small Business)</fullName>
+                <default>false</default>
+                <label>For-Profit Organization (Other than Small Business)</label>
+            </value>
+            <value>
+                <fullName>Small Business</fullName>
+                <default>false</default>
+                <label>Small Business</label>
+            </value>
+            <value>
+                <fullName>Hispanic-serving Institution</fullName>
+                <default>false</default>
+                <label>Hispanic-serving Institution</label>
+            </value>
+            <value>
+                <fullName>Historically Black Colleges and Universities (HBCUs)</fullName>
+                <default>false</default>
+                <label>Historically Black Colleges and Universities (HBCUs)</label>
+            </value>
+            <value>
+                <fullName>Tribally Controlled Colleges and Universities (TCCUs)</fullName>
+                <default>false</default>
+                <label>Tribally Controlled Colleges and Universities (TCCUs)</label>
+            </value>
+            <value>
+                <fullName>Alaska Native and Native Hawaiian Serving Institutions</fullName>
+                <default>false</default>
+                <label>Alaska Native and Native Hawaiian Serving Institutions</label>
+            </value>
+            <value>
+                <fullName>Non-domestic (non-US) Entity</fullName>
+                <default>false</default>
+                <label>Non-domestic (non-US) Entity</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

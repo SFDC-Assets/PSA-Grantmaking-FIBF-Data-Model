@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Funding_Type__c</fullName>
+    <description>Specifies whether funding amounts of grant financial assistance apply to the grant program, grant program project, or Federal award level.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specifies whether funding amounts of grant financial assistance apply to the grant program, grant program project, or Federal award level.</inlineHelpText>
+    <label>Funding Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Grant Program</fullName>
+                <default>false</default>
+                <label>Grant Program</label>
+            </value>
+            <value>
+                <fullName>Grant Program Project</fullName>
+                <default>false</default>
+                <label>Grant Program Project</label>
+            </value>
+            <value>
+                <fullName>Federal Award Project</fullName>
+                <default>false</default>
+                <label>Federal Award Project</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

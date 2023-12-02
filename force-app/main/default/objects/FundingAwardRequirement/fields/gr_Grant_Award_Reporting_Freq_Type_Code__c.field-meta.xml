@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Grant_Award_Reporting_Freq_Type_Code__c</fullName>
+    <description>A code denoting the appropriate reporting term corresponding to the requirements contained in the Federal award document. “Other” may be used when more frequent reporting is required for high-risk grantees.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A code denoting the appropriate reporting term corresponding to the requirements contained in the Federal award document. “Other” may be used when more frequent reporting is required for high-risk grantees.</inlineHelpText>
+    <label>Grant Award Reporting Freq Type Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Annual</fullName>
+                <default>false</default>
+                <label>Annual</label>
+            </value>
+            <value>
+                <fullName>Final</fullName>
+                <default>false</default>
+                <label>Final</label>
+            </value>
+            <value>
+                <fullName>Other (describe)</fullName>
+                <default>false</default>
+                <label>Other (describe)</label>
+            </value>
+            <value>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+                <label>Quarterly</label>
+            </value>
+            <value>
+                <fullName>Semi-annual</fullName>
+                <default>false</default>
+                <label>Semi-annual</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

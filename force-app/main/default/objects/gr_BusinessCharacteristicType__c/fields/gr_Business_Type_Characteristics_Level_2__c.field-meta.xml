@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Business_Type_Characteristics_Level_2__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Type Characteristics Level 2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Certification</fullName>
+                <default>false</default>
+                <label>Certification</label>
+            </value>
+            <value>
+                <fullName>Minority Owned Business</fullName>
+                <default>false</default>
+                <label>Minority Owned Business</label>
+            </value>
+            <value>
+                <fullName>Other Ownership</fullName>
+                <default>false</default>
+                <label>Other Ownership</label>
+            </value>
+            <value>
+                <fullName>Tribal/Native Set Asides</fullName>
+                <default>false</default>
+                <label>Tribal/Native Set Asides</label>
+            </value>
+            <value>
+                <fullName>Other Set Asides</fullName>
+                <default>false</default>
+                <label>Other Set Asides</label>
+            </value>
+            <value>
+                <fullName>Minority Serving Educational Institution Flags</fullName>
+                <default>false</default>
+                <label>Minority Serving Educational Institution Flags</label>
+            </value>
+            <value>
+                <fullName>Other Educational Institutions Flags</fullName>
+                <default>false</default>
+                <label>Other Educational Institutions Flags</label>
+            </value>
+            <value>
+                <fullName>Accredited Institution</fullName>
+                <default>false</default>
+                <label>Accredited Institution</label>
+            </value>
+            <value>
+                <fullName>Hospital</fullName>
+                <default>false</default>
+                <label>Hospital</label>
+            </value>
+            <value>
+                <fullName>Veterinary Hospital</fullName>
+                <default>false</default>
+                <label>Veterinary Hospital</label>
+            </value>
+            <value>
+                <fullName>Domestic Shelter</fullName>
+                <default>false</default>
+                <label>Domestic Shelter</label>
+            </value>
+            <value>
+                <fullName>Foundation</fullName>
+                <default>false</default>
+                <label>Foundation</label>
+            </value>
+            <value>
+                <fullName>Small Agricultural Cooperative</fullName>
+                <default>false</default>
+                <label>Small Agricultural Cooperative</label>
+            </value>
+            <value>
+                <fullName>Manufacturer of Goods</fullName>
+                <default>false</default>
+                <label>Manufacturer of Goods</label>
+            </value>
+            <value>
+                <fullName>Federally Funded Research and Development Center</fullName>
+                <default>false</default>
+                <label>Federally Funded Research and Development Center</label>
+            </value>
+            <value>
+                <fullName>Nonprofit research organization</fullName>
+                <default>false</default>
+                <label>Nonprofit research organization</label>
+            </value>
+            <value>
+                <fullName>Independent research institute</fullName>
+                <default>false</default>
+                <label>Independent research institute</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

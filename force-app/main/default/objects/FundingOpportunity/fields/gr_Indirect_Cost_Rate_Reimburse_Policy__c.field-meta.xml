@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Indirect_Cost_Rate_Reimburse_Policy__c</fullName>
+    <description>A reference to the Federal or Federal agency-specific policy on indirect cost rate reimbursement applicable to the grant program, including any limitations or exclusions as to types or amount of cost items.</description>
+    <externalId>false</externalId>
+    <label>Indirect Cost Rate Reimbursement Policy</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

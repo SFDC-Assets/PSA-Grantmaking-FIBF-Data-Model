@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Total_Applicant_Contribution__c</fullName>
+    <externalId>false</externalId>
+    <formula>gr_Applicant_Contribution_1__c  + gr_Applicant_Contribution_2__c  + gr_Applicant_Contribution_3__c  + gr_Applicant_Contribution_4__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Applicant Contribution</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

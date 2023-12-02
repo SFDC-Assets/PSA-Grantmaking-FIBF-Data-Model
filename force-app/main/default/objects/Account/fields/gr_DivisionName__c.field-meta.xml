@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_DivisionName__c</fullName>
+    <description>Enter the name of the primary organizational unit, department, or division that will undertake the assistance activity</description>
+    <externalId>false</externalId>
+    <label>Division Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

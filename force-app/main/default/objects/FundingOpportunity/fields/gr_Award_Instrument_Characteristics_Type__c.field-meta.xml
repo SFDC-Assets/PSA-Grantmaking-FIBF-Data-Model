@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Award_Instrument_Characteristics_Type__c</fullName>
+    <description>A collection of codes specifying characteristics of the Federal award instrument, e.g., formula grant, fixed amount award, and block grant.</description>
+    <externalId>false</externalId>
+    <label>Award Instrument Characteristics Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Block Grant</fullName>
+                <default>false</default>
+                <label>Block Grant</label>
+            </value>
+            <value>
+                <fullName>Fixed Amount Award</fullName>
+                <default>false</default>
+                <label>Fixed Amount Award</label>
+            </value>
+            <value>
+                <fullName>Formula Grant</fullName>
+                <default>false</default>
+                <label>Formula Grant</label>
+            </value>
+            <value>
+                <fullName>Project Grant</fullName>
+                <default>false</default>
+                <label>Project Grant</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

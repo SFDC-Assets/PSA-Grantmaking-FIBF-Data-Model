@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Status__c</fullName>
+    <description>A code denoting the status of the identified performance measure (i.e., baseline, target, result) for the grant program or Federal award project.</description>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Baseline</fullName>
+                <default>false</default>
+                <label>Baseline</label>
+            </value>
+            <value>
+                <fullName>Target</fullName>
+                <default>false</default>
+                <label>Target</label>
+            </value>
+            <value>
+                <fullName>Result</fullName>
+                <default>false</default>
+                <label>Result</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

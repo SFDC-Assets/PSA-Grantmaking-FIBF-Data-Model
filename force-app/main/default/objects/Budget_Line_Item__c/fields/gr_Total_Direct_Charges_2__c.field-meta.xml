@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Total_Direct_Charges_2__c</fullName>
+    <externalId>false</externalId>
+    <formula>gr_Personnel_Requested_2__c +  gr_Fringe_Benefits_Requested_2__c  + gr_Travel_Requested_2__c  + gr_Equipment_Requested_2__c +  gr_Supplies_Requested_2__c  + gr_Contractual_Costs_2__c  + gr_Construction_Requested_2__c  + gr_Other_Category_2__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Direct Charges 2</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

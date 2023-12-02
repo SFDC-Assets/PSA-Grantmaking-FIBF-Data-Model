@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_isMajorProgram__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>An indication of whether or not the grant program is a major program.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>An indication of whether or not the grant program is a major program.</inlineHelpText>
+    <label>Major Program Indicator</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

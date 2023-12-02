@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Business_Characteristic_Type__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>A collection of codes denoting the attributes further defining the legal entity&apos;s business type based on socio-economic status and organization / business areas. (187, augmented)</description>
+    <externalId>false</externalId>
+    <label>Business Characteristic Type</label>
+    <referenceTo>gr_BusinessCharacteristicType__c</referenceTo>
+    <relationshipLabel>Business Characteristics</relationshipLabel>
+    <relationshipName>Business_Characteristics</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

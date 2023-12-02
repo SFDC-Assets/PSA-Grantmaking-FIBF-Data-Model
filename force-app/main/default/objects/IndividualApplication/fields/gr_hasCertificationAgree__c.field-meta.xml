@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_hasCertificationAgree__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Identifies that the user has agreed to the attestation statement.</description>
+    <externalId>false</externalId>
+    <label>Certification Agree</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

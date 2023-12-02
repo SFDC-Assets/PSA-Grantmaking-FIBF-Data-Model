@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_ProblemStatement__c</fullName>
+    <description>A description of the nature and extent of the problem to be addressed by the grant program, including how the grant program may relate to Congressional intent in authorizing and appropriations language, the priorities of agency leadership, and/or the less</description>
+    <externalId>false</externalId>
+    <label>Problem Statement</label>
+    <length>100000</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

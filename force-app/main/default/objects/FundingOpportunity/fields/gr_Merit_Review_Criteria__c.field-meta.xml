@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Merit_Review_Criteria__c</fullName>
+    <description>A description of or reference to the Federal agency&apos;s merit review criteria for applications for a Federal award of a grant program funding opportunity.</description>
+    <externalId>false</externalId>
+    <label>Merit Review Criteria</label>
+    <length>131072</length>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

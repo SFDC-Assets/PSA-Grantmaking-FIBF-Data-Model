@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_ApplicationSubjecttoReview__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Is application subject to review by state under executive order 12372 process?</inlineHelpText>
+    <label>Application Subject to Review</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes, This application was made available to the State</fullName>
+                <default>false</default>
+                <label>Yes, This application was made available to the State</label>
+            </value>
+            <value>
+                <fullName>Yes, but has not been selected by the State for review</fullName>
+                <default>false</default>
+                <label>Yes, but has not been selected by the State for review</label>
+            </value>
+            <value>
+                <fullName>No, Program is not covered</fullName>
+                <default>false</default>
+                <label>No, Program is not covered</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

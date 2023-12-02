@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_RelatedApplication__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>For new applications, leave blank. For a continuation or revision to an existing award, enter the previously assigned federal award identifier number. If a changed/corrected application, enter the federal identifier in accordance with agency instructions.</inlineHelpText>
+    <label>Related Application</label>
+    <referenceTo>IndividualApplication</referenceTo>
+    <relationshipLabel>Individual Applications</relationshipLabel>
+    <relationshipName>Related_Applications</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

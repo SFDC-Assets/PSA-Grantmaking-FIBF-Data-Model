@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Terms_And_Conditions_Type_Code__c</fullName>
+    <description>A code identifying the category of an individual term or condition applicable to the Federal award.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A code identifying the category of an individual term or condition applicable to the Federal award.</inlineHelpText>
+    <label>Terms And Conditions Type Code</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administrative requirement</fullName>
+                <default>false</default>
+                <label>Administrative requirement</label>
+            </value>
+            <value>
+                <fullName>Future budget period</fullName>
+                <default>false</default>
+                <label>Future budget period</label>
+            </value>
+            <value>
+                <fullName>National policy requirement</fullName>
+                <default>false</default>
+                <label>National policy requirement</label>
+            </value>
+            <value>
+                <fullName>Recipient integrity and performance matter</fullName>
+                <default>false</default>
+                <label>Recipient integrity and performance matter</label>
+            </value>
+            <value>
+                <fullName>Termination provision</fullName>
+                <default>false</default>
+                <label>Termination provision</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

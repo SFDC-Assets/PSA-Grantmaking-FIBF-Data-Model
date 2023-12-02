@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Subtotal_Total_Allowable_Costs__c</fullName>
+    <externalId>false</externalId>
+    <formula>gr_Admin_Legal_Expns_Total_Allow_Costs__c +  gr_Land_Total_Allowable_Costs__c +  gr_Relocation_Total_Allowable_Costs__c +  gr_Arch_and_Engg_Total_Allowable_Costs__c +  gr_Other_Engg_Total_Allowable_Costs__c +  gr_Project_Inspection_Total_Allow_Costs__c +  gr_Site_Work_Total_Allowable_Costs__c +  gr_Demolition_Total_Allowable_Costs__c +  gr_Construction_Total_Allowable_Costs__c +
+ gr_Equipment_Total_Allowable_Costs__c +  gr_Miscellaneous_Total_Allowable_Costs__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Subtotal - Total Allowable Costs</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

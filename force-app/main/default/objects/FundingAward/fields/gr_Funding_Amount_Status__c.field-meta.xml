@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Funding_Amount_Status__c</fullName>
+    <description>The status of the funding amount associated with an award (e.g., committed, obligated).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The status of the funding amount associated with an award (e.g., committed, obligated).</inlineHelpText>
+    <label>Funding Amount Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Appropriated</fullName>
+                <default>false</default>
+                <label>Appropriated</label>
+            </value>
+            <value>
+                <fullName>Authorized</fullName>
+                <default>false</default>
+                <label>Authorized</label>
+            </value>
+            <value>
+                <fullName>Budgeted</fullName>
+                <default>false</default>
+                <label>Budgeted</label>
+            </value>
+            <value>
+                <fullName>Carryover</fullName>
+                <default>false</default>
+                <label>Carryover</label>
+            </value>
+            <value>
+                <fullName>Committed</fullName>
+                <default>false</default>
+                <label>Committed</label>
+            </value>
+            <value>
+                <fullName>Deobligated</fullName>
+                <default>false</default>
+                <label>Deobligated</label>
+            </value>
+            <value>
+                <fullName>Expended</fullName>
+                <default>false</default>
+                <label>Expended</label>
+            </value>
+            <value>
+                <fullName>Obligated</fullName>
+                <default>false</default>
+                <label>Obligated</label>
+            </value>
+            <value>
+                <fullName>Offset</fullName>
+                <default>false</default>
+                <label>Offset</label>
+            </value>
+            <value>
+                <fullName>Recommended</fullName>
+                <default>false</default>
+                <label>Recommended</label>
+            </value>
+            <value>
+                <fullName>Requested</fullName>
+                <default>false</default>
+                <label>Requested</label>
+            </value>
+            <value>
+                <fullName>Unliquidated Obligation</fullName>
+                <default>false</default>
+                <label>Unliquidated Obligation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

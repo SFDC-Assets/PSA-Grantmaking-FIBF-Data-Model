@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Funding_Opportunity_Record_Type</fullName>
+    <active>true</active>
+    <label>Funding Opportunity Record Type</label>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>gr_Award_Instrument_Characteristics_Type__c</picklist>
+        <values>
+            <fullName>Block Grant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Amount Award</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formula Grant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Grant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>gr_Eligibility_Other_Criteria__c</picklist>
+        <values>
+            <fullName>Cost Matching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cost Participation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cost Sharing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>gr_Grant_Award_Instrument_Type_Code__c</picklist>
+        <values>
+            <fullName>Cooperative Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>gr_Stage_Type_Code__c</picklist>
+        <values>
+            <fullName>Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal Award</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

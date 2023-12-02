@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_RevisionType__c</fullName>
+    <externalId>false</externalId>
+    <label>Revision Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Increase Award</fullName>
+                <default>false</default>
+                <label>Increase Award</label>
+            </value>
+            <value>
+                <fullName>Decrease Award</fullName>
+                <default>false</default>
+                <label>Decrease Award</label>
+            </value>
+            <value>
+                <fullName>Increase Duration</fullName>
+                <default>false</default>
+                <label>Increase Duration</label>
+            </value>
+            <value>
+                <fullName>Decrease Duration</fullName>
+                <default>false</default>
+                <label>Decrease Duration</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Increase Award, Increase Duration</fullName>
+                <default>false</default>
+                <label>Increase Award, Increase Duration</label>
+            </value>
+            <value>
+                <fullName>Increase Award, Decrease Duration</fullName>
+                <default>false</default>
+                <label>Increase Award, Decrease Duration</label>
+            </value>
+            <value>
+                <fullName>Decrease Award, Increase Duration</fullName>
+                <default>false</default>
+                <label>Decrease Award, Increase Duration</label>
+            </value>
+            <value>
+                <fullName>Decrease Award, Decrease Duration</fullName>
+                <default>false</default>
+                <label>Decrease Award, Decrease Duration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

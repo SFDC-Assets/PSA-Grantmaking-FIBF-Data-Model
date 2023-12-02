@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_FormulaCalculation__c</fullName>
+    <description>A description of the calculation(s)/algorithm(s) used to determine distribution of funding for formula grants as prescribed by law or administrative regulation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>calculation(s)/algorithm(s) used to determine distribution of funding</inlineHelpText>
+    <label>Formula Calculation</label>
+    <length>100000</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Arch_and_Engg_Total_Allowable_Costs__c</fullName>
+    <externalId>false</externalId>
+    <formula>gr_Arch_and_Engg_Total_Cost__c -  gr_Arch_and_Engg_Costs_Not_Allowable__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Arch and Engg Total Allowable Costs</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

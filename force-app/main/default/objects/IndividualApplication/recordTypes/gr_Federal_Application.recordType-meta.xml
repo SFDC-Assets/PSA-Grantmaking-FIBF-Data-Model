@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Federal_Application</fullName>
+    <active>true</active>
+    <description>Federal Award Application Package</description>
+    <label>Federal Application</label>
+    <picklistValues>
+        <picklist>ApplicationCategory</picklist>
+        <values>
+            <fullName>Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ApplicationType</picklist>
+        <values>
+            <fullName>Continuation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category</picklist>
+        <values>
+            <fullName>Benefit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>License</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>InternalStatus</picklist>
+        <values>
+            <fullName>Application Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Application Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>gr_ApplicantType__c</picklist>
+        <values>
+            <fullName>Alaska Native and Native Hawaiian Serving Institutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City or Township Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>County Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>For-Profit Organization %28Other than Small Business%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hispanic-serving Institution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Historically Black Colleges and Universities %28HBCUs%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent School District</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indian%2FNative American Tribal Government %28Federally Recognized%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indian%2FNative American Tribal Government %28Other than Federally Recognized%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indian%2FNative American Tribally Designated Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-domestic %28non-US%29 Entity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonprofit with 501C3 IRS Status %28Other than Institution of Higher Education%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonprofit without 501C3 IRS Status %28Other than Institution of Higher Education%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Institution of Higher Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public%2FIndian Housing Authority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public%2FState Controlled Institution of Higher Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special District Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tribally Controlled Colleges and Universities %28TCCUs%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Territory or Possession</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>gr_ApplicationSubjecttoReview__c</picklist>
+        <values>
+            <fullName>No%2C Program is not covered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes%2C This application was made available to the State</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes%2C but has not been selected by the State for review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>gr_DelinquentFederalDebt__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>gr_RevisionType__c</picklist>
+        <values>
+            <fullName>Decrease Award</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decrease Award%2C Decrease Duration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decrease Award%2C Increase Duration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decrease Duration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase Award</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase Award%2C Decrease Duration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase Award%2C Increase Duration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase Duration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>gr_SubmissionType__c</picklist>
+        <values>
+            <fullName>Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Changed%2FCorrected Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preapplication</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

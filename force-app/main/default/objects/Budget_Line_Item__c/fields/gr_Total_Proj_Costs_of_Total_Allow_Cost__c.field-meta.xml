@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Total_Proj_Costs_of_Total_Allow_Cost__c</fullName>
+    <description>TOTAL PROJECT OF TOTAL ALLOWABLE COSTS (subtract #15 from #14)</description>
+    <externalId>false</externalId>
+    <formula>gr_Subtotal_Total_Allow_Costs_w_Contg__c - gr_Project_Income_Total_Allowable_Costs__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Proj Costs of Total Allowable Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

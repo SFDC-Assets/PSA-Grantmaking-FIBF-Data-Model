@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Performance_Measure_Source__c</fullName>
+    <description>A text description of where the performance measure data is coming from for the grant program or Federal award project.</description>
+    <externalId>false</externalId>
+    <label>Performance Measure Source</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

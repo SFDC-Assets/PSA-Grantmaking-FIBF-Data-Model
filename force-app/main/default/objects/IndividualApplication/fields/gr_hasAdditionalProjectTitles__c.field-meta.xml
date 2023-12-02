@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_hasAdditionalProjectTitles__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is true is there is an attached file(s).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates that there is an attached file(s).</inlineHelpText>
+    <label>Attached Additional Project Titles</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

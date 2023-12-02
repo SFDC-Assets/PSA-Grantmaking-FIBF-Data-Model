@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Grant_Award_Report_Status_Code__c</fullName>
+    <description>A status of the award recipient&apos;s report for a federal award, e.g., initial or revised.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A status of the award recipient&apos;s report for a federal award, e.g., initial or revised.</inlineHelpText>
+    <label>Grant Award Report Status Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Final</fullName>
+                <default>false</default>
+                <label>Final</label>
+            </value>
+            <value>
+                <fullName>Initial</fullName>
+                <default>false</default>
+                <label>Initial</label>
+            </value>
+            <value>
+                <fullName>Revised</fullName>
+                <default>false</default>
+                <label>Revised</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

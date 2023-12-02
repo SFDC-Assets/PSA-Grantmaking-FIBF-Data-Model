@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_GroupContactMethod__c</fullName>
+    <description>A group contact email address, postal address, phone number, etc. that multiple people access, so that someone will respond even if others are unexpectedly absent during critical periods.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A group contact email address, postal address, phone number, etc. that multiple people access, so that someone will respond even if others are unexpectedly absent during critical periods.</inlineHelpText>
+    <label>Group Contact Method</label>
+    <length>80</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

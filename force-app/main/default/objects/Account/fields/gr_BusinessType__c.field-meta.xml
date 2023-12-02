@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_BusinessType__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>A code denoting the legal entity&apos;s business or organization type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The legal entity&apos;s business or organization type.</inlineHelpText>
+    <label>Business Type</label>
+    <referenceTo>BusinessType</referenceTo>
+    <relationshipLabel>Agency Accounts</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

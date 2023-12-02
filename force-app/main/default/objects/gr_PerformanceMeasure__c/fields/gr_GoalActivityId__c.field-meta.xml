@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_GoalActivityId__c</fullName>
+    <description>A number or label used to track a grant program, grant program project, or Federal award project activity as it relates to goals and objectives. (203, augmented)</description>
+    <externalId>false</externalId>
+    <label>Goal Activity</label>
+    <referenceTo>gr_GoalActivity__c</referenceTo>
+    <relationshipLabel>gr_Performance Measures</relationshipLabel>
+    <relationshipName>gr_Performance_Measures</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

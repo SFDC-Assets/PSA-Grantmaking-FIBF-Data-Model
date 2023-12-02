@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_AttachedAdditionalDistricts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>boolean field indicating if the applicant attached a file of additional districts</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates if the applicant attached a file of additional districts.</inlineHelpText>
+    <label>Attached Additional Districts</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

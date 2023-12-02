@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_hasSupportingDocs__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>boolean identifier if the applicant attached additional documentation as specified in the agency instructions.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Applicant has attached supporting documents as specified in agency instructions.</inlineHelpText>
+    <label>Attached Supporting Documents</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

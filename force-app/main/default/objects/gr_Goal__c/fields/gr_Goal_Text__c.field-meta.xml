@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Goal_Text__c</fullName>
+    <description>A description of the direction and focus of a grant program, grant program project, or Federal award project that identifies the change the grant program or Federal award project should advance and/or achieve. Goals serve as the foundation for developing objectives. (263, augmented)</description>
+    <externalId>false</externalId>
+    <label>Goal Text</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

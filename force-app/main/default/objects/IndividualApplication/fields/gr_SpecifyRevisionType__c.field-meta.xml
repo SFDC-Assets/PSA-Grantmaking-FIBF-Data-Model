@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_SpecifyRevisionType__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>please specify a reason when Other is selected as the Revision Type.</inlineHelpText>
+    <label>Specify Revision Type</label>
+    <length>40</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

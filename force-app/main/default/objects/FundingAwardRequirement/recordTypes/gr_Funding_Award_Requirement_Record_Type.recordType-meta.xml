@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Funding_Award_Requirement_Record_Type</fullName>
+    <active>true</active>
+    <label>Funding Award Requirement Record Type</label>
+    <picklistValues>
+        <picklist>ApprovalStatus</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Combined Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Narrative Report</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>gr_Grant_Award_Report_Status_Code__c</picklist>
+        <values>
+            <fullName>Final</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revised</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>gr_Grant_Award_Report_Type_Code__c</picklist>
+        <values>
+            <fullName>Final Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Final Performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invention Statement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inventory Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>gr_Grant_Award_Reporting_Freq_Type_Code__c</picklist>
+        <values>
+            <fullName>Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Final</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other %28describe%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-annual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

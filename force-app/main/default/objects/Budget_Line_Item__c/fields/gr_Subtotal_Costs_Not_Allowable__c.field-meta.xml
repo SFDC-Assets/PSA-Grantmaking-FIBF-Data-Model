@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Subtotal_Costs_Not_Allowable__c</fullName>
+    <description>Sum of lines 1-11</description>
+    <externalId>false</externalId>
+    <formula>gr_Admin_Legal_Expns_Costs_Not_Allowable__c +  gr_Land_Costs_Not_Allowable__c +  gr_Relocation_Costs_Not_Allowable__c +  gr_Arch_and_Engg_Costs_Not_Allowable__c +  gr_Other_Engineering_Costs_Not_Allowable__c +  gr_Project_Inspection_Costs_Not_Allow__c +  gr_Site_Work_Costs_Not_Allowable__c +  gr_Demolition_Costs_Not_Allowable__c +  gr_Construction_Costs_Not_Allowable__c +  gr_Equipment_Costs_Not_Allowable__c +  gr_Miscellaneous_Costs_Not_Allowable__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Subtotal - Costs Not Allowable</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

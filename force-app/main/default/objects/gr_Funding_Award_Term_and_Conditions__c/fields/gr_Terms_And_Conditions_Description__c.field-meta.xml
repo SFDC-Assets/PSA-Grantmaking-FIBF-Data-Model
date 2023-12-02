@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gr_Terms_And_Conditions_Description__c</fullName>
+    <description>The text of an individual term or condition stating the nature of the requirement, and, if applicable, the reason why the requirement is being imposed, the nature of the action(s) needed to remove the additional requirement, the time allowed for completing the action(s), and the method for requesting reconsideration of the requirement imposed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The text of an individual term or condition stating the nature of the requirement, and, if applicable, the reason why the requirement is being imposed, the nature of the action(s) needed to remove the additional requirement, the time allowed for completing the action(s), and the method for requesting reconsideration of the requirement imposed.</inlineHelpText>
+    <label>Terms And Conditions Description</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>
