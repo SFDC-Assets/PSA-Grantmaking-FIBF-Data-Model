@@ -4,7 +4,7 @@
 
 **Ready-made grants data model that aligns with the Federal Integrated Business Framework's (FIBF).**
 
-Accelerator Listing: [Grantmaking FIBF Data Model](https://pubsec-accelerators.my.site.com/accelerators/accelerator/a0wDo0000022Ha1IAE/grantmaking-fibf-data-model)
+Accelerator Listing: [Grantmaking FIBF Data Model](https://gpsaccelerators.developer.salesforce.com/accelerator/a0wDo0000022Ha1IAE/grantmaking-fibf-data-model)
 
 
 ## Description
